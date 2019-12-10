@@ -4,8 +4,8 @@ from setuptools import setup
 
 setup(
     name="django-tenant-schemas",
-    author="Bernardo Pires Carneiro",
-    author_email="carneiro.be@gmail.com",
+    author="Bernardo Pires Carneiro, updated by Ari Trujillo-Wesler",
+    author_email="carneiro.be@gmail.com, ",
     packages=[
         "tenant_schemas",
         "tenant_schemas.migration_executors",
@@ -17,9 +17,9 @@ setup(
         "tenant_schemas.tests",
     ],
     scripts=[],
-    url="https://github.com/bcarneiro/django-tenant-schemas",
+    url="https://github.com/TheReFTW/tenant_schemas_gis.git",
     license="MIT",
-    description="Tenant support for Django using PostgreSQL schemas.",
+    description="Tenant support for Django using PostgreSQL schemas with PostGIS configuration.",
     long_description=open("README.rst").read() if exists("README.rst") else "",
     classifiers=[
         "License :: OSI Approved :: MIT License",
